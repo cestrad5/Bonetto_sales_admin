@@ -16,8 +16,8 @@ Salesforce needs a solution that allows for the display of the product catalog w
 React  
 NextJS
 TailwindCSS
-postcss
-autoprefixer
+Postcss
+Autoprefixer
 MySQL
 Prisma DB
 
