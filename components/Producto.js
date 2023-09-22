@@ -9,6 +9,7 @@ const Producto = ({ producto }) => {
   return (
     <div className="border p-3">
       <Image
+        priority
         src={`/assets/img/${imagen}.png`}
         alt={`Img producto ${nombre}`}
         width={400}

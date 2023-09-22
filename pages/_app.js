@@ -1,12 +1,13 @@
-import '../styles/globals.css'
-import { BonettoProvider } from '../context/BonettoProvider'
+import '../styles/globals.css';
+import { BonettoProvider } from '../context/BonettoProvider';
 
 function MyApp({ Component, pageProps }) {
+
   return (
     <BonettoProvider>
-        <Component {...pageProps} />
+      <Component {...pageProps} />
     </BonettoProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
